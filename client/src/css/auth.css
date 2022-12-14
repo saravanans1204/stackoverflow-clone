@@ -1,0 +1,143 @@
+body{
+    background-color: #fefffe;
+}
+.main-logo{
+
+    width: 10%;
+
+    
+
+
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+
+}
+
+
+
+.second{
+    display: flex;
+    min-width: 300px;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    box-shadow: 0 0 2px  ;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    flex-grow: 1;
+
+    /* border:  1px; */
+    /* box-shadow:  0px 0px 3px ; */
+}
+
+.main-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.main-form input{
+    display: block;
+}
+.pass-in::before{
+    content: "Password";
+    font-weight: 700;
+}
+
+
+.pass-in{
+    margin-top: 20px;
+}
+
+
+.bttn{
+    width: 100%;;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.search-in{
+    margin-top: 20px;
+}
+.search-in::before{
+    content: attr(id);
+    font-weight: 700;
+    
+}
+.search-in input{
+    width: 100%;
+    border: 0ch;
+    box-shadow: 0px 0px 1px ;
+}
+
+.pass-in input{
+    width: 100%;
+    border: 0ch;
+    box-shadow: 0px 0px 1px ;
+}
+
+
+#second-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 26vh;
+    
+}
+#first-container{
+   font-size: "23px";
+    margin-top: 20vh;
+}
+
+#first-container h1{
+    font-weight: 400;
+    font-size: 30px;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
+}
+
+#first-container div{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: small;
+    line-height: 0.5;
+}
+
+.query{
+    margin-top: 10px;
+    font-size:smaller ;
+    font-weight: 400;
+}
+
+
+.handle-switch{
+border: none;
+background-color: rgb(235, 235, 235);
+font-weight: 600;
+color: rgb(107, 143, 244);
+}
+
+.select{
+    
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: small;
+}
+
+.select-checkbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.terms{
+    margin-top: 10px;
+    font-size:smaller ;
+    font-weight: 400;
+
+}

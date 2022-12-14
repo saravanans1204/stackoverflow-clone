@@ -1,0 +1,128 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
+}
+.top{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 3px #ef8236;
+    min-height: 50px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0.7px  black;
+    border-bottom:solid rgba(0, 0, 0, 0.15) .5px;
+    background-color: white;
+    
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1250px;
+    max-width: 100%;
+
+    height: 47px;
+
+ }
+
+ .logo{
+    display: flex;
+    align-content: center; 
+    align-items: center;
+    width: 400px;
+    padding: 20px;
+}
+
+#ham{
+    margin-top: 2px;
+ 
+}
+
+#stacklogo{
+    width:150px;
+    max-width: 150px;
+    margin-left: 20px;
+ }
+
+
+
+
+.navigation ul{
+    
+    list-style: none;
+}
+.form{
+    width: 700px;
+    max-width: 100%;
+    min-width: 25px;
+    flex-grow: 1;
+    padding: 0px 12px;
+    position: relative;
+}
+
+
+.btn-outline-success{
+    background-color: hsl(205deg 46% 92%);
+    
+}
+
+
+
+
+.nav-item{
+    font-size: small;
+    font-weight: 500;
+    font-weight: 500;
+    color: black;
+    transition: 0.2s;
+    Text-Decoration: None;
+    padding: 15px 25px;
+}
+
+.nav-btn{
+    cursor: pointer;
+    border-radius: 20px;
+    width: 70px;
+    text-align: center;
+    
+ 
+}
+.nav-btn:hover{
+    background-color: rgba(0, 0, 0, 0.402);
+   
+  
+       
+}
+
+
+.form input{
+    background-image: url(../assets/search.svg);
+    background-repeat: no-repeat;
+    background-position-y:6px ;
+    background-position-x:4px ;
+    background-color: rgba(255, 255, 255, 0.742);
+    border-radius: 2px;
+    height: 35px;
+    font-size: 13px;
+    border:solid 1px rgba(182, 181, 181, 0.765);
+}
+.form input::placeholder{
+    padding-left: 15px;
+}
+
+.search-icon{
+    width: 25px;
+    opacity: 80%;
+    position: absolute;
+    margin-right:80px;
+    margin-top: 10px;
+    
+}
+
+
+.login-btn{
+    height: 35px;
+    border-radius: 1px;
+    background-color: aqua;
+}

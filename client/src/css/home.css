@@ -1,0 +1,208 @@
+/* top-logic */
+
+
+.main-top{
+   
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding-top: .5px;
+ 
+}
+.top-two{
+    display: flex;
+    justify-content:space-between;
+    width: 1250px;
+    max-width: 100%;
+
+
+}
+
+
+
+
+
+/* second-level-logic */
+
+
+.side-bar-main{
+    background-color:#fefffe;
+    border-right: solid rgba(106, 106, 106, 0.177) .5px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    max-width: 180px;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+
+
+
+
+    
+}
+
+
+.hover{
+    transition: .2s;
+    padding: 10px;
+
+    font-size: 14px;
+}
+
+
+.active{
+    background-color:rgba(124, 124, 124, 0.428);
+    border-right:solid #ef8236;
+}
+.right-side-bar-main{
+
+
+    display: flex;
+    flex-direction: column;
+    max-width: 298px;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    float: right;
+    padding-right: 15px;
+}
+
+
+
+/*Third-level-logic*/
+.right-container{
+    border-radius: 2px;
+    background-color: #fdf7e2f5;
+    border-radius: 2px;
+    box-shadow:  0 0 1px;
+   
+    line-height: 1;
+}
+
+.right-bottom{
+    margin-top: 30px;
+    background-color: #f7f7f7;
+    box-shadow:  0 0 1px;
+    border-radius: 2px;
+    content: over}
+
+
+
+
+.div{
+    background:rgb(247 238 207 / 96%);
+    box-shadow: 0px 0px 1px 1px ;
+    color: #36333329;
+    
+    padding: 5px;
+}
+
+.div p{
+    margin: 0;
+    font-weight: 700;
+    font-size: 15px;
+    font-style: bold;
+    color: rgba(0, 0, 0, 0.626);
+
+}
+
+
+.right-container p{
+    padding: 10px;
+    font-size: 13px;
+    
+}
+
+
+.right-bottom p {
+    padding: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: bold;
+}
+.tags{
+background-color: #e0ecf5;
+font-size: small;
+padding: 5px;
+border: solid rgba(222, 222, 222, 0.034) 0.2px;
+color: rgb(42, 146, 238);
+}
+
+
+.tag-div{
+    display: flex;
+    
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 18px;
+}
+
+
+.pen{
+    width: 13px;
+    margin-right:10px ;
+    margin-top: 2px;
+    float: left;
+}
+
+.message{
+    width: 14px;
+    margin-right:10px ;
+    margin-top: 2px;
+    float: left;
+   
+}
+
+
+.stack-logo{
+    width: 16px;
+    margin-right:10px ;
+    float: left;
+    margin-top: 2px;
+}
+
+
+.center-portion{
+    display: flex;
+    flex-direction: column;
+    width: 730px;
+   margin-top: 2px;
+    padding:10px ;
+}
+
+.center-div{
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    width: 95%;
+    align-items: center;
+   
+ 
+}
+.center-div h1{
+    white-space: nowrap;
+    font-size: 40px;
+}
+.center-div button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 37px;
+    width: 98px;
+    background-color: #369fef;
+    border: solid rgb(51, 167, 255);
+    padding: 20px;
+    text-align: center;
+    font-size: 13px;
+    white-space: nowrap;
+
+
+    border-radius:3px ;
+    }
+
+
+    
